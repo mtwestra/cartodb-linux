@@ -21,5 +21,14 @@ Browser:
 
 2. Go to `http://monkey.localhost.lan:3000/dashboard` in the browser, and use the username and password as set in the settings file (in this case, both are 'monkey'). You should be able to login to the cartodb dashboard now.
 
+### pgAdmin
+You can use pgAdmin3 to connect to the guest, to see what is going on in the postgresql database. Settings:
+```
+name: whatever you like
+host: localhost
+port: 15432
+Maintenance database: postgres
+username: postgres
+password: empty (no really, empty)
 
 
